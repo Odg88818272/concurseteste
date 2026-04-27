@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    background-color: #0A192F;
+    height: 66px;;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-name {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-decoration: none;
+    margin-left: 280px;
+    font-weight:700;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin-right: 275px;
+}
+.navbar .navbar-entrar {
+    background-color: #FFBF00;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    padding: 7px 16px;
+    transition: 0.3s;
+}
+.navbar .navbar-entrar:hover {
+    background-color: #E6AC00;
+}
+.navbar .navbar-cadastrar {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-left: 15px;
+    transition: 0.3s;
+}
+.navbar .navbar-cadastrar:hover {
+    color: #FFBF00;
+}
+.home {
+     background: linear-gradient(135deg, #0A192F 0%, #0f2952 60%, #1a3a6b 100%);
+     height: 88vh;
+     display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.bagde {
+    margin-left: 280px;
+    position: absolute;
+    top: 150px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    width: 220px;
+    height: 22px;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    color: #E6AC00;
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+}
+.home .container h1 {
+    margin-left: 280px;
+    position: absolute;
+    top: 180px;
+    font-size: 53px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    color: white;
+    line-height: 1.2;
+}
+.home .container h1 span {
+    color: #FFBF00;
+}
+.home .container p {
+    margin-left: 280px;
+    position: absolute;
+    top: 320px;
+    font-size: 1.0rem;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(255, 255, 255, 0.75);
+    width: 400px;
+    line-height: 1.5;
+    max-width: 500px;
+    margin-bottom: 36px;
+    line-height: 1.5;
+    transform: scale(1.1);
+  transform-origin: left; 
+}
+.btn-primario {
+    margin-left: 280px;
+    position: absolute;
+    top: 460px;
+    color: white;
+    background-color: #FFBF00;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 50px;
+    width: 215px;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.btn-primario:hover {
+    transform: translateY(-5px);
+    box-shadow:0 0.2px 20px #FFBF00;
+}
+.btn-psecundario {
+    margin-left: 510px;
+    position: absolute;
+    top: 460px;
+    color: white;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 50px;
+    width: 170px;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    border: 2px solid white;
+    transition: all 0.3s ease;
+}
+.btn-psecundario:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.2);
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.3;
+}
+.numeros {
+    display: flex;
+    gap: 36px;
+    margin-left: 280px;
+    margin-top: 380px;
+}
+.numero {
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 800;
+}
+.descricao {
+    font-size: 0.9rem;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(255, 255, 255, 0.75);
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* .imagem {
+    position: absolute;
+    display: flex;
+    top: 0;
+    right: 355px;
+    width: 400px; 
+    height: 820px;
+}*/
+.secao-concurso {
+    background-color: #F3F4F6;
+    height: 88vh;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+}
+ .secao-concurso .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+} 
+.badge {
+    background-color: rgba(145, 153, 147, 0.12);
+    color: #E6AC00;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12.5px;
+    font-weight: 500;
+    width: 120px;
+    margin: 0 auto;
+    border-radius: 12px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+.secao-concurso h2 {
+    font-size: 2.2rem;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 14px;
+}
+.secao-concurso p {
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+    color: #6B7280;
+    margin-top: 14px
+}
+.categorias-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+.categoria-cartao:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.categoria-cartao {
+    transition: 0.3s;
+    background-color: white;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    border: 2px solid #E5E7EB;
+}
+.categoria-cartao h3 {
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    margin-top: 14px;
+}
+.categoria-cartao p {
+    font-size: 0.9rem;
+    font-family: 'Poppins', sans-serif;
+    color: #6B7280;
+    margin-top: 8px;
+}
+.emoji {
+    font-size: 2.0rem;
+}
+.secao-beneficios {
+    background-color: white;
+    height: 88vh;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+}
+.secao-beneficios .container {
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    text-align: center;
+}
+.secao-beneficios .badge {
+    width: 200px;
+}
+.secao-beneficios h2 {
+    font-size: 2.1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    margin-top: 14px;
+}
+.secao-beneficios p {
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+    color: #6B7280;
+    margin-top: 14px;
+}
